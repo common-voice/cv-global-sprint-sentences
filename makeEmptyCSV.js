@@ -5,7 +5,7 @@ const OUTPUT_PATH = './corpus.csv';
 
 let output = '';
 for (var i = 1; i <= LINES_IN_CROWDIN; i++) {
-  output += `"${i}",""\n`;
+  output += `"${i}","sentence #${i}"\n`;
 }
 
 fs.writeFile(OUTPUT_PATH, output, (err) => {
