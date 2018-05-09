@@ -1,4 +1,4 @@
-const LINES_IN_CROWDIN = 50000;
+const LINES_IN_CROWDIN = 20000;
 const fs = require('fs');
 
 const OUTPUT_PATH = './corpus.csv';
