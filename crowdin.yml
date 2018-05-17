@@ -1,4 +1,4 @@
 files:
-  - source: /*.csv
+  - source: /corpus.csv
     translation: /corpus.%two_letters_code%.%file_extension%
     scheme: 'source_phrase,translation'
